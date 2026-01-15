@@ -4,10 +4,11 @@ module.exports = {
     watch: false
   }],
 
+
   deploy : {
     production : {
-      user : 'nvweb',
-      host : '140.112.21.22',
+      user : 'victor',
+      host : '140.112.21.15',
       ref  : 'origin/main',
       repo : 'https://github.com/Ethan-Chiu/workshop.git',
       path : '/home/nvweb/nvwebpage_source',
@@ -15,3 +16,16 @@ module.exports = {
     }
   }
 };
+
+
+// deploy : {
+//   production : {
+//     user : 'nvweb',
+//     host : '140.112.21.22',
+//     ref  : 'origin/main',
+//     repo : 'https://github.com/Ethan-Chiu/workshop.git',
+//     path : '/home/nvweb/nvwebpage_source',
+//     'post-deploy': 'chmod +x ./deploy.sh && ./deploy.sh',
+//   }
+// }
+
