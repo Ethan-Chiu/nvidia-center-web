@@ -7,7 +7,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'nvweb',
-      host : '140.112.21.13',
+      host : '140.112.21.22',
       ref  : 'origin/main',
       repo : 'https://github.com/Ethan-Chiu/workshop.git',
       path : '/home/nvweb/nvwebpage_source',
